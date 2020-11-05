@@ -21,7 +21,7 @@ Suggests:
     testthat
 VignetteBuilder: knitr
 URL: https://GitHubID.github.io/multiple
-Imports: magrittr, stats, Rcpp, Rdpack
+Imports: magrittr, stats, Rcpp, Rdpack, ggplot2
 LinkingTo: Rcpp
 RdMacros: Rdpack
 Depends: R (>= 2.10)
