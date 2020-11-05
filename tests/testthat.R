@@ -1,4 +1,4 @@
-library("testthat")
-library("multiple")
+library(testthat)
+library(multiple)
 
 test_check("multiple")

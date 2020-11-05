@@ -1,9 +1,6 @@
 #' double
 #'
 #' Double value of numbers.
-#'
-#' Calculate the double values of numbers.
-#'
 #' @param number a numeric vector.
 #'
 #' @return A vector of the same length as `number` containing the
@@ -16,8 +13,6 @@
 double <- function(number) {
   return(2 * number)
 }
-
-
 
 #' fuzzydouble
 #'
@@ -37,5 +32,8 @@ double <- function(number) {
 #' fuzzydouble(2)
 #' fuzzydouble(1:4)
 fuzzydouble <- function(number, sd = 1) {
-  return(2 * number + stats::rnorm(length(number), 0, sd))
+  return(2 * number + stats::rnorm(length(number), 0,
+                                   sd))
 }
+
+

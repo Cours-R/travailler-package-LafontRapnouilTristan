@@ -16,9 +16,6 @@ transformed values.
 \description{
 Double value of numbers.
 }
-\details{
-Calculate the double values of numbers.
-}
 \examples{
 double(2)
 double(1:4)

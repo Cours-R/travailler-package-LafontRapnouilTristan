@@ -20,11 +20,8 @@ Multiples of numbers
 }
 \details{
 This package allows simple computation of multiples
-of numbers, including fast algorithms for integers \insertCite{Marcon2014c}{multiple}.
+of numbers, including fast algorithms for integers.
 }
 \examples{
 multiple(1:2,3)
-}
-\references{
-\insertAllCited{}
 }

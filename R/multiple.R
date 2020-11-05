@@ -27,6 +27,7 @@ multiple <- function(number, times = 1) {
 #'
 #' @examples
 #' print(multiple(2,3))
+
 print.multiple <- function(x, ...) {
   print.default(x$y)
 }
@@ -59,7 +60,8 @@ summary.multiple <- function(object, ...) {
 #' @examples
 #' plot(multiple(2,3))
 plot.multiple <- function(x, y, ...) {
-  plot.default(y=x$y, x=x$x, type = "p", main = paste("Multiplication by", x$times), ...)
+  plot.default(y=x$y, x=x$x, type = "p",
+               main = paste("Multiplication by", x$times), ...)
 }
 
 
@@ -81,5 +83,6 @@ autoplot.multiple <- function(object, ...) {
   data.frame(x = object$x, y = object$y) %>%
     ggplot2::ggplot() +
     ggplot2::geom_point(ggplot2::aes_(x = ~x, y = ~y)) +
-    ggplot2::labs(title = paste("Multiplication by", object$times))
+    ggplot2::labs(title = paste("Multiplication by",
+                                object$times))
 }
