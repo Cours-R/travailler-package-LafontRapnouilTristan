@@ -7,7 +7,7 @@
 \method{triple}{integer}(x, ...)
 }
 \arguments{
-\item{...}{}
+\item{...}{further arguments passed to the generic method.}
 
 \item{number}{a vector of integers}
 }

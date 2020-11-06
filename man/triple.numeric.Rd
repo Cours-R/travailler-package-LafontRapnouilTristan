@@ -7,7 +7,7 @@
 \method{triple}{numeric}(x, ...)
 }
 \arguments{
-\item{...}{}
+\item{...}{further arguments passed to the generic method.}
 
 \item{number}{a numeric vector}
 }

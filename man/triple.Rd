@@ -9,7 +9,7 @@ triple(x, ...)
 \arguments{
 \item{x}{a numeric vector}
 
-\item{...}{}
+\item{...}{further arguments passed to the generic method.}
 }
 \value{
 A vector the same length as \code{x} containing the returning values
