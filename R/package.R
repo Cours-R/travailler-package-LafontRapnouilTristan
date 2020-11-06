@@ -20,8 +20,7 @@ NULL
 #' @source Values computed by the R software,
 #'   \url{https://www.r-project.org/}
 "seq1_10"
-#' @references
-#' \insertAllCited{}
+
 
 #' seq1_100
 #'
@@ -31,8 +30,5 @@ NULL
 #' @source Values computed by the R software,
 #'   \url{https://www.r-project.org/}
 "seq1_100"
-#' @references
-#' \insertAllCited{}
-#'
-#'
+
 

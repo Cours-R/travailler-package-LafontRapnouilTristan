@@ -1,4 +1,4 @@
-# Cours Travailler avec R : créer un package
+# Cours Travailler avec R : créer un package (du nom de multiple)
 
 Ce dépôt destiné à la classe GitHub Cours-R contientle code produit en suivant les indications du cours.
 
