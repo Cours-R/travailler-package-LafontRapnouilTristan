@@ -15,16 +15,20 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://GitHubID.github.io/multiple
+Imports: 
+      magrittr, 
+      stats, 
+      Rcpp, 
+      Rdpack
 Suggests: 
     knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-URL: https://GitHubID.github.io/multiple
-Imports: magrittr, stats, Rcpp, Rdpack
 LinkingTo: Rcpp
 RdMacros: Rdpack
 Depends: R (>= 2.10),
-          stats,
+          graphics,
           ggplot2
-Petittext: Je peux écrire ce que je souhaite?
+
