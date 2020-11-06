@@ -17,10 +17,10 @@ triple <- function(x, ...) {
 #'
 #' compute the triple of an integer
 #'
-#' @param number a vector of integers
+#' @param x a vector of integers
 #' @param ... further arguments passed to the generic method.
 #'
-#' @return A vector the same length as `number` containing the returning values
+#' @return A vector the same length as `x` containing the returning values
 #' @export
 #'
 #' @examples
@@ -33,10 +33,10 @@ triple.integer <- function(x, ...) {
 #'
 #' compute the triple of a real number
 #'
-#' @param number a numeric vector
+#' @param x a numeric vector
 #' @param ... further arguments passed to the generic method.
 #'
-#' @return A vector the same length as `number` containing the returning values
+#' @return A vector the same length as `x` containing the returning values
 #' @export
 #'
 #' @examples

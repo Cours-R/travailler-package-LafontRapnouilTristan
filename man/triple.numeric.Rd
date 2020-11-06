@@ -18,6 +18,5 @@ A vector the same length as \code{number} containing the returning values
 compute the triple of a real number
 }
 \examples{
-triple.numeric(2)
 triple.numeric(1:4)
 }

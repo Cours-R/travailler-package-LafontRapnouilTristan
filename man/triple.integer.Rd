@@ -18,6 +18,5 @@ A vector the same length as \code{number} containing the returning values
 compute the triple of an integer
 }
 \examples{
-triple.integer(2)
 triple.integer(1:4)
 }
