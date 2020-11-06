@@ -24,7 +24,6 @@ triple <- function(x, ...) {
 #' @export
 #'
 #' @examples
-#' triple.integer(2)
 #' triple.integer(1:4)
 triple.integer <- function(x, ...) {
   return(x * 3L)
@@ -41,7 +40,6 @@ triple.integer <- function(x, ...) {
 #' @export
 #'
 #' @examples
-#' triple.numeric(2)
 #' triple.numeric(1:4)
 triple.numeric <- function(x, ...) {
   return(x * 3)
